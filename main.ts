@@ -1,11 +1,11 @@
 function right () {
-    wuKong.setMotorSpeed(wuKong.MotorList.M1, 30)
+    wuKong.setMotorSpeed(wuKong.MotorList.M1, 65)
     wuKong.setMotorSpeed(wuKong.MotorList.M2, 0)
     image = images.arrowImage(ArrowNames.West)
 }
 function left () {
     wuKong.setMotorSpeed(wuKong.MotorList.M1, 0)
-    wuKong.setMotorSpeed(wuKong.MotorList.M2, 30)
+    wuKong.setMotorSpeed(wuKong.MotorList.M2, 65)
     image = images.arrowImage(ArrowNames.East)
 }
 function stop () {
@@ -26,8 +26,8 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 function straight () {
-    wuKong.setMotorSpeed(wuKong.MotorList.M1, 100)
-    wuKong.setMotorSpeed(wuKong.MotorList.M1, 100)
+    wuKong.setMotorSpeed(wuKong.MotorList.M1, 90)
+    wuKong.setMotorSpeed(wuKong.MotorList.M1, 90)
     image = images.arrowImage(ArrowNames.North)
 }
 let going = 0
