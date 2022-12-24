@@ -26,8 +26,8 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 function straight () {
-    wuKong.setMotorSpeed(wuKong.MotorList.M1, 90)
-    wuKong.setMotorSpeed(wuKong.MotorList.M1, 90)
+    wuKong.setMotorSpeed(wuKong.MotorList.M1, 65)
+    wuKong.setMotorSpeed(wuKong.MotorList.M2, 74)
     image = images.arrowImage(ArrowNames.North)
 }
 let going = 0
